@@ -14,6 +14,8 @@ public class Datastream {
 			s = din.readLine();
 			System.out.println(s);
 			dout.writeUTF(s);
+			dout.writeByte(10);
+			dout.writeChars(s);
 			//dout.flush();
 		}
 		din.close();
