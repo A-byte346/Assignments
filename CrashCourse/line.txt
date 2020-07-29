@@ -1,0 +1,4 @@
+this is another character stream class
+buffered reader class is used to take input line by line 
+and to retrieve the data line by line
+stop
