@@ -1,0 +1,2 @@
+this a charcterstream example of creating a file and eriting data to it
+i added this line manually to check a case of the output

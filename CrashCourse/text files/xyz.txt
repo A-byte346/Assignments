@@ -1,0 +1,3 @@
+i am connecting printstream to datainputstream
+and i am using datainputstream to take input
+stop

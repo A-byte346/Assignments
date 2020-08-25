@@ -1,0 +1,2 @@
+my name is anant jainthis is my first io programnow i connected datainputstream to fileinputstreamnow i printed the output char by chari tried to print the output line by line
+this is a new line i added manuallyi successfully done that
