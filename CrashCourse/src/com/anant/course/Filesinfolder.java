@@ -9,7 +9,7 @@ public class Filesinfolder {
 		File file = new File(path);
 		if(!file.exists())
 		{
-				System.out.println(args[0]+"does not exist");
+				System.out.println(path+"does not exist");
 				return;
 		}
 		tree(path);
@@ -25,7 +25,7 @@ public class Filesinfolder {
 		String [] files = file.list();
 		for(int i=0;i<files.length;i++)
 		{
-			tree(filename + "\\" + files[i]);
+			tree(filename + file.separator + files[i]);
 		}
 	}
 

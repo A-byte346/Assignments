@@ -29,7 +29,7 @@ class pipeout implements Runnable
 		{
 			try {
 				pout.write(i);
-				Thread.sleep(1000);
+				Thread.sleep(500);
 			} catch (Exception e) {
 				// TODO: handle exception
 			}
@@ -51,7 +51,7 @@ class pipein implements Runnable
 			
 			try {
 				z = pin.read();
-				Thread.sleep(1000);
+				Thread.sleep(500);
 			} catch (Exception e) {
 				// TODO: handle exception
 			}
